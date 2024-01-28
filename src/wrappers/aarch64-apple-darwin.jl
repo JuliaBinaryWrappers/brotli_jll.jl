@@ -10,19 +10,19 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libbrotlicommon,
-        "lib/libbrotlicommon.1.0.9.dylib",
+        "lib/libbrotlicommon.1.1.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libbrotlidec,
-        "lib/libbrotlidec.1.0.9.dylib",
+        "lib/libbrotlidec.1.1.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libbrotlienc,
-        "lib/libbrotlienc.1.0.9.dylib",
+        "lib/libbrotlienc.1.1.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
