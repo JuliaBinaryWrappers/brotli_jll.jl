@@ -1,143 +1,151 @@
 [[brotli]]
 arch = "aarch64"
-git-tree-sha1 = "aae03fc1c888a675a15ebd7f4d0ec7c895d9d6cd"
+git-tree-sha1 = "2b4dcfe521d9a943e82770f16f27334255467656"
 os = "macos"
 
     [[brotli.download]]
-    sha256 = "497326a48b1155923f45d7817299b0d270d5b2d0d937e032c1d1fdd55110a0f0"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "7546183813c4f9b656126d0eecd50e60ca3687da1108c7130ea3c0fc7ef86efd"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.aarch64-apple-darwin.tar.gz"
 [[brotli]]
 arch = "aarch64"
-git-tree-sha1 = "a403c9ee9b9affb39e0e9a6f576ce8203793c3a3"
+git-tree-sha1 = "97d77143fc2c995a583147b52ed370d398104a9f"
 libc = "glibc"
 os = "linux"
 
     [[brotli.download]]
-    sha256 = "12ad9f5bb63f17ab47980b675490ab8f82e43625078a066e5fe607ea23c16709"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "b007631a1e37960b26baa741cee99f7c51b7a15e12f3f8e89fc5443debb0165c"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.aarch64-linux-gnu.tar.gz"
 [[brotli]]
 arch = "aarch64"
-git-tree-sha1 = "e42ec393ea71e7389935afe8e898b3b4576e8307"
+git-tree-sha1 = "3477e1a147504bfd87e98252ef996cbfdff7b5e8"
 libc = "musl"
 os = "linux"
 
     [[brotli.download]]
-    sha256 = "70664c474b4e065c7549a65c7274d825bb0dd558615547b772a3b606fb952d6e"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.aarch64-linux-musl.tar.gz"
+    sha256 = "0631d750aaccdf8a51874882e5ae038ad98e1ad92e41e7b552aebc697eef0428"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.aarch64-linux-musl.tar.gz"
 [[brotli]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "86e18c9ecbefe243af290004941455fcc74d4bb0"
-libc = "glibc"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "597b4709f06706b7055f95bea6f31f89b25b43f82a014aed29d3b50d9281b926"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.armv6l-linux-gnueabihf.tar.gz"
-[[brotli]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "965f0220455b40db9d543ed2a9947539da6c6946"
-libc = "musl"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "7dc01ba849a6912f3eb37ca53abc11242a1fd180f389549a6b1ccabc9d935332"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.armv6l-linux-musleabihf.tar.gz"
-[[brotli]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "57cf9a554bec12d777c2ed40250101f7ea627c6e"
-libc = "glibc"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "45f106c7db6273a36400bfdd7111fac289ef8492909a3c9cf4f773a8b41d6939"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.armv7l-linux-gnueabihf.tar.gz"
-[[brotli]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "1685b3d0ad990a8764bd67a41833288d77ce3649"
-libc = "musl"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "600a4ca3fece96f54869ffe7836df1d32c9326d1c07a57f568a404be07e98775"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.armv7l-linux-musleabihf.tar.gz"
-[[brotli]]
-arch = "i686"
-git-tree-sha1 = "336acb83624d0727d91b44ae3a1dade1fc6afa72"
-libc = "glibc"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "2ab6fd66b67013d9dc706bd8d655e29001a7d9da738ac3e5afaa30feeb02188a"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.i686-linux-gnu.tar.gz"
-[[brotli]]
-arch = "i686"
-git-tree-sha1 = "ee78ce92b39e5987625e662e4183bd13f2cde6bb"
-libc = "musl"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "24ecd571d70b9e2aa4e95dd571749cdb35bd983e6c3aad75910a738c3b26354e"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.i686-linux-musl.tar.gz"
-[[brotli]]
-arch = "i686"
-git-tree-sha1 = "02cf8bc1ff04f6899a9fdbae746a130aa4dd11f7"
-os = "windows"
-
-    [[brotli.download]]
-    sha256 = "0b610454a1cdb064d3ca2859765f69322091e7cd60047bd6cb999900e53b722e"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.i686-w64-mingw32.tar.gz"
-[[brotli]]
-arch = "powerpc64le"
-git-tree-sha1 = "ccc0833fea2697ee6cdbd0c5d6b2f405662e432b"
-libc = "glibc"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "43248393959bf97b652a7bbffd52f1ccd4aee006cafba19bd90ffa2ff5c8005f"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.powerpc64le-linux-gnu.tar.gz"
-[[brotli]]
-arch = "x86_64"
-git-tree-sha1 = "b8ea13cda3737047a7ca828611faccea918c2602"
-os = "macos"
-
-    [[brotli.download]]
-    sha256 = "90cee34493a9a620f106b23f42f51a094e2fb7948884e0804013eddabd38cc39"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.x86_64-apple-darwin.tar.gz"
-[[brotli]]
-arch = "x86_64"
-git-tree-sha1 = "0741e8fa6449aa49e03428dc0e8a0644c0347c07"
-libc = "glibc"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "8b8b2d2df4d1c5ad81626d59729a053650a35bdfd6fc05899af53a0ebef0c7ab"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.x86_64-linux-gnu.tar.gz"
-[[brotli]]
-arch = "x86_64"
-git-tree-sha1 = "cf3df0cb4f3cf96219c981a71e311cb0bc3daa30"
-libc = "musl"
-os = "linux"
-
-    [[brotli.download]]
-    sha256 = "190283d0fe506fe7d6824593bbc9756b0427b98f71374ba6d34f2077678f9d41"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.x86_64-linux-musl.tar.gz"
-[[brotli]]
-arch = "x86_64"
-git-tree-sha1 = "99a192f0fba7e025a516a29c0ce25ab35ad313b6"
+arch = "aarch64"
+git-tree-sha1 = "b26a4e8cd16fcb802cc3e1d69f9d0697720175f3"
 os = "freebsd"
 
     [[brotli.download]]
-    sha256 = "a25037cca575839e1cb3d91f8269756be9b5f769b190aefc2cc6af5270e18444"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "98fc27556359f2f098f6ef007ababf54d9a4a67bae132594578e87b9c696d06c"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.aarch64-unknown-freebsd.tar.gz"
 [[brotli]]
-arch = "x86_64"
-git-tree-sha1 = "af8fc2849cd153626a4e3637552ead85a9681103"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "f83b81fde75f8d5c8c23dca7af0af78a2235d5ff"
+libc = "glibc"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "f58df4d0dfc18c6f4533646faaa7fe38141a27bff8cb71c8c4f69bd826120b78"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.armv6l-linux-gnueabihf.tar.gz"
+[[brotli]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "eacf30061676d04bad25a56d349d37fb7c94e1b0"
+libc = "musl"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "bb83844e1bb2305a759b5e9e7afa16a3c5851a3bd43173aa0624af1db12aa31d"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.armv6l-linux-musleabihf.tar.gz"
+[[brotli]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a73d1240ffe79e52247fe702af8015a6564cca30"
+libc = "glibc"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "ba8b7a7a1f1480488b5c993ff1a5857bf5d7ac0540f79ba706e31006246939ab"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.armv7l-linux-gnueabihf.tar.gz"
+[[brotli]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b0c2dbbc71f6ddd5ae307e56d560f6980592c29b"
+libc = "musl"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "3ddc4ba4e8a15bb5288542750d42d9b7e30a5d25be7d798c634c6087ed7320bc"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.armv7l-linux-musleabihf.tar.gz"
+[[brotli]]
+arch = "i686"
+git-tree-sha1 = "28c5ad9162d318699cedda933977a369b7353845"
+libc = "glibc"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "0033fd227bea39186544ea6a4c8d5d9c234e9895b12a2a1198803d0e61591574"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.i686-linux-gnu.tar.gz"
+[[brotli]]
+arch = "i686"
+git-tree-sha1 = "2b7e342cffa74155c63d51e607b5419cf07bd270"
+libc = "musl"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "20a500129ca751032d032e1df14e8dc18096fc84497b602381e1c896d9c063e9"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.i686-linux-musl.tar.gz"
+[[brotli]]
+arch = "i686"
+git-tree-sha1 = "ea1d8768d1d5c5f7e26472e09fc513c169069b19"
 os = "windows"
 
     [[brotli.download]]
-    sha256 = "6d1026d4ee9dffe65d9377db068641e5788a1a6d1054410b3476b71f2094c39f"
-    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+0/brotli.v1.1.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "6dd0aaef4707616adc17d104965ec2d58cc20654d3aa184f5e411b0e24469156"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.i686-w64-mingw32.tar.gz"
+[[brotli]]
+arch = "powerpc64le"
+git-tree-sha1 = "895f13b11d6e1aa7fa20a7969d78462fff15f5ba"
+libc = "glibc"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "bff9132bc753f6008e9b7c53ceee67b0df6e8fcc7b24875d4ba1ae9e7412339b"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.powerpc64le-linux-gnu.tar.gz"
+[[brotli]]
+arch = "x86_64"
+git-tree-sha1 = "7c057350371242a3f4a91d181adf4f014c7074fc"
+os = "macos"
+
+    [[brotli.download]]
+    sha256 = "69bd5d0b548ed1ce41ae853e98bdcf3ca5fe0234b73df8198d85c6b1916b44b8"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.x86_64-apple-darwin.tar.gz"
+[[brotli]]
+arch = "x86_64"
+git-tree-sha1 = "312a86e4d80060c1f73b9908ff825997328cb4e1"
+libc = "glibc"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "deb9dbb0243a3a93fe7fc7d3807ee4d391d1e0494cbd44d28c5dbe0fc2aed0f4"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.x86_64-linux-gnu.tar.gz"
+[[brotli]]
+arch = "x86_64"
+git-tree-sha1 = "8ea00130bd643c087e0731000cd05af6c658893b"
+libc = "musl"
+os = "linux"
+
+    [[brotli.download]]
+    sha256 = "47e9cda6495d1a1f7bddabe6dcddd849fa9cbdd02780d68b1b358d8681b0220f"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.x86_64-linux-musl.tar.gz"
+[[brotli]]
+arch = "x86_64"
+git-tree-sha1 = "83bf4dec16042272354267d02482c57cd3ce8207"
+os = "freebsd"
+
+    [[brotli.download]]
+    sha256 = "fc25b8a6002c204fb529fb98ad2083de9fbad12105cfabb8a8df342bb575a557"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.x86_64-unknown-freebsd.tar.gz"
+[[brotli]]
+arch = "x86_64"
+git-tree-sha1 = "6fb3277e760199ba138d82d4a724962059c83e99"
+os = "windows"
+
+    [[brotli.download]]
+    sha256 = "00f41796d58fc5362e1a5181dd539bef4a039dfdca22b85f3de6a7addd434adc"
+    url = "https://github.com/JuliaBinaryWrappers/brotli_jll.jl/releases/download/brotli-v1.1.0+1/brotli.v1.1.0.x86_64-w64-mingw32.tar.gz"
